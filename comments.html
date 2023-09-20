@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js practic</title>
+    <style>
+        html {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div {
+            width: 40%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+        }
+        button {
+            padding: 10px;
+            display: inline;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="">
+        <button onclick="playerGame('rock')">Rock</button>
+
+        <button onclick="playerGame('paper')">Paper</button>
+
+        <button onclick="playerGame('scissors')">Scissors</button>
+
+        <button onclick="  
+            reset()
+        ">Reset</button>
+        <!-- <button onclick="  
+            scores.wins = 0;
+            scores.loses = 0;
+            scores.ties = 0;
+            localStorage.removeItem('scores');
+            alert('Game resets');
+      
+        ">Reset</button> -->
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>

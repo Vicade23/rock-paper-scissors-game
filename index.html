@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <title>js</title>
+</head>
+<body>
+    <!-- <header></header> -->
+    <button class="js-btn" onclick="subscribe()">Subscribe</button>
+    <br>
+        <button style="margin-bottom: 10px;" class="js-reset-btn" onclick="reset()">start</button>
+    <div class="">
+        <button onclick="playerGame('rock')">rock</button>
+        <button onclick="playerGame('paper')">paper</button>
+        <button onclick="playerGame('scissors')">scissors</button>
+        <p class="js-p1"></p>
+        <p class="js-p2"></p>
+        <p class="js-p3"></p>
+    </div>
+
+
+    <p>Shipping calculator</p>
+    <p>Order under $40 = +$10 Shipping.</p>
+    <p>Order over $40 = Free shipping.</p>
+    <div class="flex">
+    <input type="text" onchange="processInput" placeholder="Cost of order">
+    <button>Calculate</button>        
+    </div>
+    <p class="screen-testing"></p>
+    <script src="/index.js"></script>
+</body>
+</html>

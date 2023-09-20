@@ -1,0 +1,28 @@
+
+html {
+    padding: 0;
+    margin: 0;
+}
+.js-btn {
+    margin-bottom: 10px;
+}
+div {
+    margin-bottom: 50px;
+    width: 300px;
+}
+input {
+    padding: 10px;
+}
+button {
+    padding: 10px;
+    display: inline;
+    margin: auto;
+}
+.flex {
+    display: flex;
+}
+.screen-testing {
+    width: 250px;
+    border: 1px solid black;
+    height: 30px;
+}

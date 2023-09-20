@@ -1,3 +1,11 @@
+const processInput = (event) => {  
+    document.getElementById('screen-testing').innerHTML = event.target.value; 
+}  
+document.getElementById("costOrder").addEventListener("keyup", processInput )
+
+
+
+
 function compute() {
     const randomNumber = Math.random();
     let computerMove = '';
@@ -11,14 +19,6 @@ function compute() {
     return computerMove;
 }
 
-
-function processInput(event){
-        
-        console.log('event', event)
-        const tests = Number(document.querySelector('.screen-testing').innerHTML);
-        document.querySelector('.screen-testing').innerHTML = event.target.value;
-
-    } 
 
 ////////////////////
 
